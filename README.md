@@ -40,9 +40,9 @@ If you have any questions feel free to contact me here: www.nikilster.com/about.
 
     somewhere near the top of your file.
 
-3. Use the date formatter on a date by calling:   
+3. Use the date formatter on a date by calling (You can change the locale Ex: @"fr_FR"):   
 
-        [date formattedAsTimeAgo]
+        [date formattedAsTimeAgo:@"en_US"]
 
    where date is an (NSDate *) and represents a date IN THE PAST (relative to now).
 
