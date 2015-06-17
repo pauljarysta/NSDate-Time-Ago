@@ -51,7 +51,7 @@ If you have any questions feel free to contact me here: www.nikilster.com/about.
    If you have a mysql datetime string and you want to convert it to the time ago format, do:
 
         NSString *mysqlDatetime = <Get from the database>
-        NSString *timeAgoFormattedDate = [NSDate mysqlDatetimeFormattedAsTimeAgo:mysqlDatetime locale:@"en_US"];`
+        NSString *timeAgoFormattedDate = [NSDate mysqlDatetimeFormattedAsTimeAgo:mysqlDatetime locale:@"en_US"];
 
 <br/>
 
